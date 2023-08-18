@@ -1,0 +1,86 @@
+<!-- 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form to Database</title>
+</head>
+<body>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="authorName">Enter the Author Name</label>
+        <input type="text" id="authorName" name="authorName"><br><br>
+
+        <label for="publishedDate">Enter the Published-date:</label>
+        <input type="text" id="publishedDate" name="publishedDate"><br><br>
+        <label for="Patent-title">Enter the Patent-title:</label>
+        <input type="text" id="Patent-title" name="Patent-title"><br><br>
+        <label for="iprApplicationNumber">Enter the iprApplicationNumber:</label>
+        <input type="text" id="iprApplicationNumber" name="iprApplicationNumber"><br><br>
+        <label for="patentFile">Enter the file:</label>
+        
+            <input type="file" name="patentFile"  class="patentFile" id="patentFile" accept=".pdf">
+            <button type="submit">Upload Patent</button>
+        
+    </form>
+</body>
+</html> -->
+
+
+<TYPE html>
+    <html lang="en">
+    <head><link href="patent.css" rel="stylesheet"></head>
+    <body>
+    <center>
+    <form class="form"  action="/submit" method="post" enctype="multipart/form-data">
+        <p class="title">Hello Patent Holders!! </p>
+        <p class="message">Enter your patent details here!! </p>
+           
+            <label  for="authorName">
+                <input  id ="authorName" name="authorName" placeholder="" type="text" class="input">
+                <span>Author's name</span>
+            </label>
+<!--     
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>Authors's Lastname</span>
+            </label> -->
+        
+                
+        <!-- <label>
+            <input required="" placeholder="" type="email" class="input" >
+            <span>Author's Email</span>
+        </label>  -->
+        <label>
+            <input name="publishedDate"required="" placeholder="" type="date" class="input">
+            <span class="date">Published Date</span>
+        </label> 
+        <label>
+            <input name="patentTitle" required="" placeholder="" type="text" class="input">
+            <span>Patent Title</span>
+        </label> 
+        <label>
+            <input name="iprApplicationNumber" required="" placeholder="" type="text" class="input">
+            <span>IPR Application Number</span>
+        </label> 
+        <label>
+            <input  name="patentStatus" required="" placeholder="" type="text" class="input">
+            <span>Patent Staus (Granted/Pedning)</span>
+        </label> 
+        <label>
+            <input   name="Department" required="" placeholder="" type="text" class="input">
+            <span>Department</span>
+        </label> 
+        <label for="patentFile">
+        <span>Upload Patent</span>
+            <input type="file" name="patentFile"  class="input" id="patentFile" accept=".pdf">
+            <button type="submit" class="submit">Upload Patent</button></label>
+    
+    
+        <p class="message">The Above mentioned Informations are True to my Knowledge</p>
+        <button class="submit">Submit</button>
+        
+    </form>
+      </center>
+        </body>
+        </html>

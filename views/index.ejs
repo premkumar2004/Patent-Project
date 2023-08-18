@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- <html>
+<head>
+  <title>Server Response</title>
+</head>
+<body>
+  <h1 id="responseText"></h1>
+
+  
+</body>
+</html> --> 
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>dssdf</title>
+</head>
+<body>
+  <h1>Items List</h1>
+  <ul>
+    <% items.forEach(items => { %>
+      <li><%= items.patentname %></li>
+    <% }); %>
+  </ul>
+  <ul>
+    <% items.forEach(items => { %>
+      <li><%= items.name %></li>
+    <% }); %>
+  </ul>
+</body>
+</html> -->
+
+
+
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+   
+    
+</head>
+<body>
+  
+    <div class="main-container"> 
+         <header class="header-section">
+            <div class="logo-user">
+               <center> <img class="logo" src="./assets/VIT-panchetti.jpg.crdownload" alt="logo"></img></center>
+                <a  class="button2" id="table" href="/table">See Table View</a>
+            </div>
+        </header>
+        
+        <section>
+          
+                
+          <% items.forEach(items => { %> 
+                 <div class="dish-card">
+                    
+                    <div class="dish-name"><%= items.authorName %></div>
+                    <div class="description"><%= items.publishedDate %></div>
+                    <div class="dish-name"><%= items.patentTitle %>
+                       
+                    </div>
+                    <div class="line"></div>
+                    <div class="rating" ><%= items.patentStatus %></div>
+                    <div class="reviews"><%= items.iprApplicationNumber %></div>
+                   <center><a class="file" href="/view/<%= items._id %>" target="_blank" download>Download PDF</a></center> 
+                   <center><a class="file" href="/view/<%= items._id %>" target="_blank" >View PDF</a></center> 
+            
+                  </br></br></br></br>
+                </div>
+                <% }); %>2
+                </section>
+          </div>
+                  
+               
+</html>  

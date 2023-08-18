@@ -1,0 +1,110 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <th>Author Name</th>
+            <th>Published Date</th>
+            <th>Patent Title</th>
+            <th>IPR Application Number</th>
+            <th>Patent Status</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+            <% items.forEach(items => { %>
+                <div class="dish-card">
+                   <!--<img class="dish-image" src="./assets/glasses-1052010_1280.jpg" alt="briyani"></img>-->
+                   <!-- <div class="dish-name"><%= items.authorName %></div>
+                   <div class="description"><%= items.publishedDate %></div>
+                   <div class="rating"><%= items.patentTitle %>
+                       <i class="fa fa-star"></i>
+                   </div>
+                   <div class="reviews"><%= items.iprapplicationNumber %></div>
+                 </br></br></br></br>
+               </div>
+               <% }); %>
+        </tbody>
+      </table>
+      
+</body>
+</html> --> 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patent-Database</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+    }
+  .file{
+    color:#009087;
+  }
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      margin: 0 auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      text-align: center;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #009087;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <center><h1>Patent-Database</h1></center>
+
+ 
+  <table>
+    <tr>
+      <th>Author Name</th>
+      <th>Published Date</th>
+      <th>Patent Title</th>
+      <th>IPR Application Number</th>
+      <th>Patent Status</th>
+      <th>Pdf Download</th>
+    </tr>
+    <% items.forEach(items => { %>
+    <tr>
+
+      <td><%= items.authorName %></td>
+      <td><%= items.publishedDate %></td>
+      <td><%= items.patentTitle %></td>
+      <td><%= items.iprApplicationNumber %></td>
+      <td><%= items.patentStatus %></td>
+     
+      <td><a class="file" href="/view/<%= items._id %>" target="_blank" download >Download PDF</a></td>
+      
+    </tr>
+    <% }); %>
+   
+  </table>
+</body>
+</html>
+
+
+

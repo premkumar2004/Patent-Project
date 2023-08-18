@@ -1,0 +1,93 @@
+[
+    {
+      "_id": "64d6759c18b25c51f2ce3b0f",
+      "authorName": "Author 1",
+      "publishedDate": "2030-10-19T18:30:00.000Z",
+      "iprApplicationNumber": "123456789",
+      "data": "JVBERi0xLjcKCjQgMCBvYmoKPDwKL0JpdHNQZXJDb21wb25lbnQgOAovQ29sb3JTcGFjZSAvRGV2aWNlUkdCCi9GaWx0ZXIgL0RD…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "74e6a8bf22c7d8e4f3b90a56",
+      "authorName": "Author 2",
+      "publishedDate": "2030-11-21T08:45:00.000Z",
+      "iprApplicationNumber": "987654321",
+      "data": "JVBERi0xLjEKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "39f48e76a5d28c6b1f2e5d84",
+      "authorName": "Author 3",
+      "publishedDate": "2031-01-05T14:20:00.000Z",
+      "iprApplicationNumber": "567890123",
+      "data": "JVBERi0xLjEKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "a2b3c4d5e6f7a8b9c0d1e2f3",
+      "authorName": "Author 4",
+      "publishedDate": "2029-05-15T12:00:00.000Z",
+      "iprApplicationNumber": "654321987",
+      "data": "JVBERi0xLjMKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "e8f9a7b6c5d4e3f2a1b0c9d8",
+      "authorName": "Author 5",
+      "publishedDate": "2032-08-10T16:30:00.000Z",
+      "iprApplicationNumber": "908172635",
+      "data": "JVBERi0xLjYKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "5a4b3c2d1e",
+      "authorName": "Author 6",
+      "publishedDate": "2028-03-07T09:15:00.000Z",
+      "iprApplicationNumber": "135792468",
+      "data": "JVBERi0xLjQKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "0f1e2d3c4b5",
+      "authorName": "Author 7",
+      "publishedDate": "2033-12-25T20:00:00.000Z",
+      "iprApplicationNumber": "246813579",
+      "data": "JVBERi0xLjAKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "a1b2c3d4e5",
+      "authorName": "Author 8",
+      "publishedDate": "2034-09-02T10:45:00.000Z",
+      "iprApplicationNumber": "975318642",
+      "data": "JVBERi0xLjEKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "9e8f7d6c5b",
+      "authorName": "Author 9",
+      "publishedDate": "2035-06-14T14:00:00.000Z",
+      "iprApplicationNumber": "481216349",
+      "data": "JVBERi0xLjYKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    },
+    {
+      "_id": "2a3b4c5d6e",
+      "authorName": "Author 10",
+      "publishedDate": "2027-02-03T18:00:00.000Z",
+      "iprApplicationNumber": "753951852",
+      "data": "JVBERi0xLjgKJc…",
+      "contentType": "application/pdf",
+      "__v": 0
+    }
+  ]
+  
